@@ -1,13 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
 body {
   margin: 0;
   box-sizing: border-box;
 }
 
 
+#block5{
+  background-image: url(https://i.imgur.com/4qrehZL.jpg);
+  image-orientation: center;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black; 
+  display:block
+}
 
-/* CSS for header */
+#block6{
+  background-image: url(https://i.imgur.com/vkEMD9Q.jpg);
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;  
+  display:block
+}
+
+
+#block7{
+  background-image: url(https://i.imgur.com/FtYMC9U.jpg);
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;  
+  display:block
+}
+
+#portfolio-text{text-align:center;
+  font-size: larger;
+}
+
+#reading{
+  background-image: url(https://i.imgur.com/wa84i1X.jpg);
+  image-orientation: center;
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black; 
+  display:block
+}
+
+#drawing{
+  background-image: url(https://i.imgur.com/MBoT0a1.jpg);
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;  
+  display:block
+}
+
+#languages{
+  background-image: url(https://i.imgur.com/Dkb23Q5.jpg);
+  float: left;
+  width: 500px;
+  height: 500px;
+  border: 10px solid black;  
+  display:block
+}
+
+#about-me-text{text-align:center;
+  font-size: larger;
+}
+
+
+
+
+
+
+
+
+
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -182,3 +252,4 @@ body {
   color: #a1a1a1;
   padding: 10px 20px;
 }
+
