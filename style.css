@@ -1,3 +1,33 @@
+/* Homepage CSS*/
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+.home img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home-text h2 {
+  font-size: 30px;
+  color: #333333;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.home-text p {
+  font-size: 15px;
+  color: #585858;
+  margin: 10px 0;
+}
+
+
 /* Flex Boxes for about me and portfolio page */
 .about-me {display: flex;
   justify-content: center;
@@ -43,7 +73,7 @@
 
 #block7{
   background: url("https://i.imgur.com/FtYMC9U.jpg");
-  background-size: 175%;
+  background-size: 185%;
   background-position-x: center;
   background-position-y: center;
   float: left;
@@ -113,7 +143,11 @@ body {
 
 
 
-/* CSS for header */
+
+
+
+
+/* Header CSS */
 .header {
   display: flex;
   justify-content: space-between;
@@ -146,8 +180,7 @@ body {
 
 
 
-
-/* CSS for main section */
+/* Main sections css */
 .intro {
   display: flex;
   flex-direction: column;
@@ -190,46 +223,7 @@ body {
 }
 
 
-
-
-
-/* CSS for Homepage */
-.home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 80px;
-  border-top: 2px solid #eeeeee;
-}
-
-.home img {
-  width: 300px;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-.home-text h2 {
-  font-size: 30px;
-  color: #333333;
-  text-transform: uppercase;
-  margin: 0;
-}
-
-.home-text p {
-  font-size: 15px;
-  color: #585858;
-  margin: 10px 0;
-}
-
-
-
-
-
-
-
-
-/* CSS for footer */
+/* Footer CSS */
 .footer {
   display: flex;
   justify-content: space-between;
