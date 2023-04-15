@@ -44,6 +44,15 @@
   border-top: 2px solid #eeeeee;
 }
 
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 80px;
+  border-top: 2px solid #eeeeee;
+}
+
+
 
 /* CSS for "portfolio" content */
 #block5{
@@ -144,6 +153,27 @@ body {
 
 
 
+
+/* CSS for "contact" content */
+#contact-form{
+  background: url(" ");
+  background-size: 200%;
+  image-orientation: center;
+  align-items: center;
+  float: left;
+  width: 300px;
+  height: 300px;
+  border: 10px solid black; 
+  display:block
+}
+
+
+
+
+
+#contact-text{text-align:center;
+  font-size: 20px;
+}
 
 
 
