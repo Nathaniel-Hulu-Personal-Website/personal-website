@@ -54,7 +54,7 @@
 
 
 
-/* CSS for "portfolio" content */
+/*Portfolio CSS*/
 #block5{
   background: url("https://i.imgur.com/4qrehZL.jpg");
   background-size: 200%;
@@ -100,7 +100,7 @@
 
 
 
-/* CSS for "about me" content */
+/*About Me CSS*/
 #reading{
   background: url("https://i.imgur.com/wa84i1X.jpg");
   background-size: 200%;
@@ -148,7 +148,7 @@ body {
 }
 
 
-/* CSS for "contact" content */
+/*Contact page CSS*/
 #contact-form{
   background: url(" ");
   background-size: 200%;
@@ -281,3 +281,43 @@ body {
   padding: 10px 20px;
 }
 
+
+
+/* Hover Button CSS*/
+button {
+  margin: 1rem;
+}
+
+
+.btn {
+  background-color: var(--background-color);
+  color: #222;
+  padding: .5em 1em;
+  border: none;
+  outline: none;
+  position: relative;
+  cursor: pointer;
+
+  --background-color: #E3E3E3;
+  --border-size: 2px;
+  --accent-color: #0AF;
+}
+
+
+.btn.btn-border-underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: var(--border-size);
+  background-color: var(--accent-color);
+  transition: transform 300ms ease-in-out;
+
+  transform: scaleX(0);
+}
+
+.btn.btn-border-underline:hover::before,
+.btn.btn-border-underline:focus::before {
+  transform: scaleX(1);
+}
