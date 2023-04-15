@@ -142,16 +142,10 @@
   font-size: 20px;
 }
 
-
-
 body {
   margin: 0;
   box-sizing: border-box;
 }
-
-
-
-
 
 
 /* CSS for "contact" content */
@@ -166,10 +160,6 @@ body {
   border: 10px solid black; 
   display:block
 }
-
-
-
-
 
 #contact-text{text-align:center;
   font-size: 20px;
@@ -208,9 +198,7 @@ body {
 }
 
 
-
-
-/* Main sections css */
+/* Main Section CSS */
 .intro {
   display: flex;
   flex-direction: column;
@@ -251,7 +239,6 @@ body {
   cursor: pointer;
   box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
 }
-
 
 /* Footer CSS */
 .footer {
