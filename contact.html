@@ -10,10 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
 </head>
 
 
-
+<!-- Persistant header with links -->
 <body>
     <header class="header">
         <a href="#" class="logo">Nathaniel Hulu</a>
@@ -24,7 +25,7 @@
           <a href="contact.html">Contact</a>
         </nav>
       </header>
-<!-- Persistant header with links -->
+
 
 <main>
 <div class="intro">
@@ -41,11 +42,11 @@
 
 
 
-
+<!-- HTML for Form -->
 <div class="contact">
     <div id="contact-form">
     <div id="contact-text">
-        <form action="formsubmitted.html" method="GET">
+        <form id="form">
             <p>Contact Me</p>
             <div>
                 <label>Name</label>
@@ -59,13 +60,14 @@
                 <label>Message</label>
                 <input type="text" name="Message" placeholder="message" required>
             </div>
-         <button type="submit">Submit</button>
+         <input type="submit" id="submit">Submit</input>
         </div>
     </div>
     </div>
     </div>
 </form>
 </main>
+
 
 
 
